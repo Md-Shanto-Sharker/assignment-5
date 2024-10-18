@@ -21,12 +21,13 @@
 
         <div class="flex">
           <img class="size-8" src="assets/logo.png" alt="" />
-          <p>Donate Bangladesh</p>
+          <p >Donate Bangladesh</p>
         </div>
 
         <div class="lg:flex">
           <img class="size-6" src="assets/coin.png" alt="" />
-          <p>5500 BDT</p>
+          <div id="total-money" class="lg:mx-1">0 </div>
+          <div>BDT</div>
         </div>
       </nav>
     </header>
@@ -35,7 +36,7 @@
       <!-- button section -->
       <div class="flex justify-center gap-10 mt-10 mb-10">
         <button class="btn bg-lime-500">Donation</button>
-        <button class="btn bg-white">History</button>
+        <button id="history-btn" class="  btn bg-white">History</button>
       </div>
 
       <!-- card section -->
@@ -48,10 +49,20 @@
             <img class="" src="assets/noakhali.png" alt="" />
           </div>
           <div class="lg:w-2/3">
-            <div class="flex bg-slate-200 w-20 p-1 rounded-lg mb-3">
-              <img src="assets/coin.png" alt="" />
-              <p>0 BDT</p>
+
+            <div class="flex bg-slate-200  p-3 rounded-lg mb-3 w-36">
+              <img class="size-7" src="assets/coin.png" alt="" />
+              <div class="">
+                <div class="flex">
+
+                  <div id="old-money" class="mx-1">0</div>
+
+                  
+                  <div>BDT</div>
+                </div>
+              </div>
             </div>
+
             <div class="">
               <h1 class="font-bold lg:text-2xl mb-3 text-black">
                 Donate for Flood at Noakhali, Bangladesh
@@ -66,12 +77,13 @@
                 the lives of those in need.
               </p>
               <input
+              id="donate-amount"
                 type="text"
                 placeholder="Write Donation Amount"
                 class="input input-bordered input-md mb-4 w-5/6"
               />
               <br />
-              <button class="btn bg-lime-500 w-5/6">Donate Now</button>
+              <button id="btn-donate" class="btn bg-lime-500 w-5/6">Donate Now</button>
             </div>
           </div>
         </div>
@@ -86,9 +98,14 @@
             <img class="" src="assets/feni.png" alt="" />
           </div>
           <div class="lg:w-2/3">
-            <div class="flex bg-slate-200 w-20 p-1 rounded-lg mb-3">
-              <img src="assets/coin.png" alt="" />
-              <p>600 BDT</p>
+            <div class="flex bg-slate-200  p-3 rounded-lg mb-3 w-36">
+              <img class="size-7" src="assets/coin.png" alt="" />
+              <div class="">
+                <div class="flex">
+                  <div id="old-money-2" class="mx-1">0</div>
+                  <p>BDT</p>
+                </div>
+              </div>
             </div>
             <div class="">
               <h1 class="font-bold lg:text-2xl mb-3 text-black">
@@ -106,12 +123,13 @@
                 to assist those in urgent need.
               </p>
               <input
+              id="donate-amount-2"
                 type="text"
                 placeholder="Write Donation Amount"
                 class="input input-bordered input-md mb-4 w-5/6"
               />
               <br />
-              <button class="btn bg-lime-500 w-5/6">Donate Now</button>
+              <button id="btn-donate-2" class="btn bg-lime-500 w-5/6">Donate Now</button>
             </div>
           </div>
         </div>
@@ -126,10 +144,15 @@
             <img class="" src="assets/quota-protest.png" alt="" />
           </div>
           <div class="lg:w-2/3">
-            <div class="flex bg-slate-200 w-20 p-1 rounded-lg mb-3">
-              <img src="assets/coin.png" alt="" />
-              <p>2400 BDT</p>
-            </div>
+            <div class="flex bg-slate-200  p-3 rounded-lg mb-3 w-36">
+                <img class="size-7" src="assets/coin.png" alt="" />
+                <div class="">
+                  <div class="flex">
+                    <div id="old-money-3" class="mx-1">0</div>
+                    <p>BDT</p>
+                  </div>
+                </div>
+              </div>
             <div class="">
               <h1 class="font-bold lg:text-2xl mb-3 text-black">
                 Aid for Injured in the Quota Movement
@@ -146,13 +169,14 @@
                 recovery. Please consider making a donation to support these
                 brave individuals in their time of need.
               </p>
-              <input
+              <input 
+              id="donate-amount-3"
                 type="text"
                 placeholder="Write Donation Amount"
                 class="input input-bordered input-md mb-4 w-5/6"
               />
               <br />
-              <button class="btn bg-lime-500 w-5/6">Donate Now</button>
+              <button id="btn-donate-3" class="btn bg-lime-500 w-5/6">Donate Now</button>
             </div>
           </div>
         </div>
